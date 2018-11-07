@@ -31,7 +31,7 @@ We are going to be using python 3.6 for these lessons (despite 3.7 being the lat
 
 <p align="center">
   <br>
-  <img width="300" src="./win-python-install.png">
+  <img width="400" src="./win-python-install.png">
   <br>
   <br>
 </p>
