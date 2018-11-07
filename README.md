@@ -16,7 +16,7 @@ Instructors: Ilias Dimitriadis (idimitriad@csd.auth.gr), Vasilis Souvatzis (vasi
     - [Windows](#windows)
     - [Linux](#linux)
     - [Mac](#mac)
-- [Setting up a virtural environment](#environment)
+- [Setting up a virtual environment](#setting-up-a-virtual-environment)
     - [Installing required packages from requirements.txt](#environment-requirements)
     
 
@@ -27,7 +27,14 @@ We are going to be using python 3.6 for these lessons (despite 3.7 being the lat
 ### Windows
 
 1. Download the [official Python installer (v3.6.5)](https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe)
-2. Run the executable and proceed with the installation. (IMPORTANT: You want to be sure to check the box that says Add Python 3.x to PATH as shown to ensure that the interpreter will be placed in your execution path.)
+2. Run the executable and proceed with the installation. (IMPORTANT: You want to be sure to check the box that says Add Python 3.x to PATH as shown below to ensure that the interpreter will be placed in your execution path.)
+
+<p align="center">
+  <br>
+  <img width="300" src="./win-python-install.png">
+  <br>
+  <br>
+</p>
 
 ### Linux
 
@@ -74,3 +81,5 @@ If these links do not suite your needs, the command line approach is as follows:
 3. `pip install virtualenv`
 4. `virtualenv  venv`
 5. `source venv/bin/activate`
+
+For any question or obstacle you may encounter, do not hesitate to contact us.
