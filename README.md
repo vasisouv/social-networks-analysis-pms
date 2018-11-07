@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <img width="200" src="./splash.jpg">
+  <img width="200" src="./splash.png">
   <br>
   <br>
 </p>
@@ -76,10 +76,11 @@ Some editors/IDEs like [Jetbrain's PyCharm](https://www.jetbrains.com/pycharm/do
 
 If these links do not suite your needs, the command line approach is as follows:
 
-1. Create a folder that will serve as your new project's root directory.
-2. Open the terminal and navigate to that folder.
-3. `pip install virtualenv`
-4. `virtualenv  venv`
-5. `source venv/bin/activate`
+1. Open the terminal
+2. Ensure that python is installed by using `python -V`
+3. Create a folder that will serve as your new project's root directory.
+4. Navigate to that folder using the terminal.
+5. `virtualenv venv`
+6. `source venv/bin/activate`
 
 For any question or obstacle you may encounter, do not hesitate to contact us.
