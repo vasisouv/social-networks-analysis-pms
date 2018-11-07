@@ -1,4 +1,4 @@
-## Social Networks PMS
+## Social Networks AUTH CS Postgraduate Course
 
 <p align="center">
   <br>
