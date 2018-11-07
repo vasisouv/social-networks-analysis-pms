@@ -1,3 +1,5 @@
+## Social Networks PMS
+
 <p align="center">
   <br>
   <img width="200" src="./splash.png">
@@ -5,7 +7,7 @@
   <br>
 </p>
 
-## Social Networks PMS
+
 
 
 > Repo containing resources for the Social Networks Analysis course (PMS @ AUTh CS Dept.)
