@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-  <img width="200" src="./splash.png">
+  <img width="200" src="./social_networks.png">
   <br>
   <br>
 </p>
@@ -33,7 +33,7 @@ We are going to be using python 3.6 for these lessons (despite 3.7 being the lat
 
 <p align="center">
   <br>
-  <img width="400" src="./win-python-install.png">
+  <img width="400" src="./win_python_install.png">
   <br>
   <br>
 </p>
