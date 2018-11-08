@@ -19,7 +19,7 @@ Instructors: Ilias Dimitriadis (idimitriad@csd.auth.gr), Vasilis Souvatzis (vasi
     - [Linux](#linux)
     - [Mac](#mac)
 - [Setting up a virtual environment](#setting-up-a-virtual-environment)
-    - [Installing required packages from requirements.txt](#environment-requirements)
+    - [Installing required packages from requirements.txt](#installing-required-packages-from-requirements.txt)
     
 
 # Python Installation
@@ -84,5 +84,11 @@ If these links do not suite your needs, the command line approach is as follows:
 4. Navigate to that folder using the terminal.
 5. `virtualenv venv`
 6. `source venv/bin/activate`
+
+### Installing required packages from  requirements.txt
+
+After your virtual environment is set and activated you can install packages automatically required for those lessons by:
+
+`pip install -r requirements.txt`
 
 For any question or obstacle you may encounter, do not hesitate to contact us.
