@@ -2,15 +2,6 @@ import networkx as nx
 import graphLoad
 
 
-G = nx.Graph()
-G.add_edges_from([('A','K'),('A','B'),('A','C'),('B','C'),('B','K'),('C','E'),
-                  ('C','F'),('D','E'),('E','F'),('E','H'),('F','G'),('I','J')])
-
-J = nx.Graph()
-J.add_edges_from([('A','K'),('A','B'),('A','C'),('B','C'),('B','K'),('C','E'),
-                  ('C','F'),('D','E'),('E','F'),('E','H'),('F','G'),('I','J'),('E','I')])
-
-G2 = graphLoad.load_from_adjlist('adjlist.txt')
 
 '''CLUSTERING COEFFICIENT - tendency of nodes to create clusters'''
 
@@ -22,10 +13,6 @@ def clus_coef_v1(G,each_node): #Fraction of pairs of the node's friends that are
 
 def clus_coef_v2(G): #Ratio of numbers of triangles and number of "open triads"
     print ('Average with v2: ',nx.transitivity(G))
-
-# clus_coef_v1(G)
-# clus_coef_v1(G2,False)
-# clus_coef_v2(G2)
 
 #Why do we have different values???
 # ->transitivity: puts larger weight on higher degree nodes
@@ -103,18 +90,6 @@ def find_central(G):
     print ('Central: ',cen)
     return cen
 
-# create_tree(G)
-# find_shortest_path(G)
-# find_avg_distance(G)
-# find_avg_distance(J)
-# find_diameter(G)
-# find_diameter(J)
-# find_eccentricity(G)
-# find_eccentricity(J)
-# find_radius(G)
-# find_radius(J)
-# find_periphery(G)
-# find_central(graphLoad.load_karate_club())
 
 '''CONNECTED GRAPHS
     Connected component:
@@ -139,10 +114,11 @@ def get_nodes_cc(G,n):
     print (nx.node_connected_component(G,n))
     return (nx.node_connected_component(G,n))
 
-###for directed graphs - when are they connected?
-# A directed graph is strongly connected if for every pair of nodes u and v there is a directed path from u to v and
-# a directed path from v to u
-# weakly connected: if replacing all directed edges to undirected produces a connected graph
+'''for directed graphs - when are they connected?
+A directed graph is strongly connected if for every pair of nodes u and v there is a directed path from u to v and 
+a directed path from v to u
+weakly connected: if replacing all directed edges to undirected produces a connected graph'''''
+
 def is_strongly_connected(G):
     isStrongly = nx.is_strongly_connected(G)
     print (isStrongly)
@@ -169,10 +145,6 @@ def get_smallest_number_of_nodes_to_disconnect(G_un):
 def get_edges_to_remove_to_disconnect(G_un):
     print(nx.edge_connectivity(G_un), nx.minimum_edge_cut(G_un))
     return nx.edge_connectivity(G_un), nx.minimum_edge_cut(G_un)
-
-# print (is_connected(J))
-# get_smallest_number_of_nodes_to_disconnect(J)
-# get_edges_to_remove_to_disconnect(J)
 
 #Robust networks have large minimum node and edge cuts
 

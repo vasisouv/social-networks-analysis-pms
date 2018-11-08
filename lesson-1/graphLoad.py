@@ -36,3 +36,13 @@ def load_from_pickle(picklefile):
     G = pickle.load(open('graphs/'+picklefile,'rb'))
     print (nx.info(G))
     return G
+
+def load_examples():
+    G = nx.Graph()
+    G.add_edges_from([('A', 'K'), ('A', 'B'), ('A', 'C'), ('B', 'C'), ('B', 'K'), ('C', 'E'),
+                      ('C', 'F'), ('D', 'E'), ('E', 'F'), ('E', 'H'), ('F', 'G'), ('I', 'J')])
+
+    J = nx.Graph()
+    J.add_edges_from([('A', 'K'), ('A', 'B'), ('A', 'C'), ('B', 'C'), ('B', 'K'), ('C', 'E'),
+                      ('C', 'F'), ('D', 'E'), ('E', 'F'), ('E', 'H'), ('F', 'G'), ('I', 'J'), ('E', 'I')])
+    return G,J
