@@ -67,7 +67,7 @@ A detailed step-by-step guide can be found [here](https://realpython.com/install
 
 # Setting up a virtual environment 
 
-Virtual environments are isolated python interpreters for each project or a group of projects. Creatinng  a virtual environment for every new python project allows you to have different versions of each module installed in every isolated environment, ensuring less module conflicts.
+Virtual environments are isolated python interpreters for each project or a group of projects. Creating  a virtual environment for every new python project allows you to have different versions of each module installed in every isolated environment, ensuring less module conflicts.
 
 Some editors/IDEs like [Jetbrain's PyCharm](https://www.jetbrains.com/pycharm/download/), [Sublime Text](https://www.sublimetext.com/3), [Visual Studio Code](https://code.visualstudio.com/Download) or [Atom](https://atom.io/) have graphical interfaces for creating such environments. If you use some of the above check out the corresponding links:
 
@@ -84,6 +84,8 @@ If these links do not suite your needs, the command line approach is as follows:
 4. Navigate to that folder using the terminal.
 5. `virtualenv venv`
 6. `source venv/bin/activate`
+
+Your terminal should now include a (venv) prefix, thus allowing you to install packages using `pip` to your virtual environment and not globally.
 
 ### Installing required packages from requirements
 
