@@ -9,7 +9,7 @@
 * Souvatzis Vasileios - Email:**vasisouv@csd.auth.gr**
 
 
-## TEAMS: 2 Students Per Team - We will also evaluate the importance & number of commits of each student
+## TEAMS: ###2 Students Per Team - We will also evaluate the importance & number of commits of each student
 ## SUBMISSION DATE: 20/12/2018
 
 ## ASSIGNMENT 1 - Instructions
