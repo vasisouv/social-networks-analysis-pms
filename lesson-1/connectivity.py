@@ -32,8 +32,8 @@ def find_shortest_path(G):
     print (nodes[0])
     sp = nx.shortest_path(G,nodes[0])
     sp_length=nx.shortest_path_length(G,nodes[0])
-    print (sp)
-    print (sp_length)
+    # print (sp)
+    # print (sp_length)
     return sp,sp_length
 
 def find_avg_distance(G):
