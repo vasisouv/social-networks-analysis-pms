@@ -5,8 +5,8 @@
 * Vakali Athena - Email:**vakali@csd.auth.gr**
 
 ## ASSIGNMENT SUPERVISORS:
-* Dimitriadis Ilias - Email:**idimitriad@csd.auth.gr**
-* Souvatzis Vasileios - Email:**vasisouv@csd.auth.gr**
+* Dimitriadis Ilias - Email:**idimitriad@csd.auth.gr** - GitHub account:**idimitriadis**
+* Souvatzis Vasileios - Email:**vasisouv@csd.auth.gr** - GitHub account:**vasisouv**
 
 
 ## TEAMS:
