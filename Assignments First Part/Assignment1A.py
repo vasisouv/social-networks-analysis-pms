@@ -43,7 +43,7 @@ def plot_graph(G, weight_name=None):
         nx.draw_networkx(G, pos, edges=edges, width=weights)
     else:
         nx.draw_networkx(G, pos, edges=edges)
-
+    plt.show()
 
 # ### Question 1
 #
