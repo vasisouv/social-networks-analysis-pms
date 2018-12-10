@@ -138,7 +138,7 @@ def answer_nine():
 
 # ### Question 10
 #
-# Find the set of nodes in G_sc with eccentricity equal to the diameter
+# What is the set of node(s) in G_sc with eccentricity equal to the radius?
 #
 # [*Returns the set of the node(s)]
 
