@@ -41,7 +41,7 @@ def plotBetweeness(G_fb, layout, top = 10):
 
 	bt = between_parallel(G_fb)
 
-	max_nodes =  sorted(bt.iteritems(), key = lambda v: -v[1])[:top]
+	max_nodes =  sorted(bt.items(), key = lambda v: -v[1])[:top]
 	bt_values = [5]*len(G_fb.nodes())
 	bt_colors = [0]*len(G_fb.nodes())
 	for max_key, max_val in max_nodes:
