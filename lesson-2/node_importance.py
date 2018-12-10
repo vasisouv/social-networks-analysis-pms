@@ -31,3 +31,11 @@ def get_n_highest_bet_Cen(G,n):
 def get_subset_centrality(G,s1,s2):
     subBetCen = nx.betweenness_centrality_subset(G,normalized=True)
     return subBetCen
+
+def get_pagerank(G,dampingFactor):
+    pRank = nx.pagerank(G,alpha=dampingFactor)
+    return pRank
+
+def get_hubs_authorities(G):
+    h,a = nx.hits(G)
+    return h,a

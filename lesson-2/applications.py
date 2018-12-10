@@ -84,4 +84,24 @@ def get_community_resource_allocation(G):
 def get_communities(G):
     communities = community.best_partition(G)
     print (communities)
+    return communities
 
+def get_total_number_of_communities(G):
+    coms = get_communities(G)
+    count = list(set([i for i in coms.values()]))
+    print (len(count))
+
+
+def community_example():
+    # G = nx.random_graphs.powerlaw_cluster_graph(200, 1, .4)
+    G = gl.load_karate_club()
+    # part = community.best_partition(G)
+    part = get_communities(G)
+    values = [part.get(node) for node in G.nodes()]
+    nx.draw_spring(G, cmap=plt.get_cmap('jet'), node_color=values, node_size=30, with_labels=False)
+    plt.show()
+    mod = community.modularity(part, G)
+    print("modularity:", mod)
+
+G = get_barabasi_albert(100,2)
+get_total_number_of_communities(G)
