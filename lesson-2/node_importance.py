@@ -15,7 +15,7 @@ def get_centrality_of_directed(G):
     return degOut,degIn
 
 def get_closeness_centrality(G,norm):
-    return nx.closeness_centrality(G,wf_improved = norm)
+    return nx.closeness_centrality(G,wf_improved = True)
 
 ##if we want to find the centrality of a node which is somehow disconnected - problem
 #in this case we use normalized = True
